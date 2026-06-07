@@ -45,7 +45,7 @@ audio-deepfake-detection/
 Clone this repository and install the required dependencies inside an isolated virtual environment.
 
 Bash
-git clone [https://github.com/YourUsername/Audio-Deepfake-Detection.git](https://github.com/YourUsername/Audio-Deepfake-Detection.git)
+git clone [https://github.com/ayush-patel624/Deepfake-Audio-Detection-Project](https://github.com/ayush-patel624/Deepfake-Audio-Detection-Project)
 cd Audio-Deepfake-Detection
 
 # Create and activate virtual environment
