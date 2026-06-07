@@ -1,0 +1,22 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Datasets and Raw Audio
+raw_audio/
+real_audio/
+fake_audio/
+my_dataset/
+*.wav
+*.flac
+*.mp3
+
+# Model Outputs and Results
+outputs/
+*.pkl
+
+# Python Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

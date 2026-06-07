@@ -1,0 +1,46 @@
+# ============================================================
+# Audio Deepfake Detection — Dependencies
+# Author : Ayush Patel, IIIT Guwahati
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# GPU (optional, speeds up feature extraction):
+#   pip install torch torchvision torchaudio \
+#       --index-url https://download.pytorch.org/whl/cu121
+# ============================================================
+
+# ------- Core deep-learning stack -------
+torch>=2.2.0
+torchaudio>=2.2.0
+transformers>=4.40.0,<5.0.0
+safetensors>=0.4.3
+
+# ------- Speech / audio processing -------
+speechbrain>=1.0.0
+soundfile>=0.12.1
+librosa>=0.10.2
+soxr>=0.3.7
+
+# ------- Scientific computing -------
+numpy>=1.26.4
+scipy>=1.13.0
+pandas>=2.2.2
+
+# ------- Machine learning -------
+scikit-learn>=1.5.0
+xgboost>=2.0.3
+
+# ------- FLOPs counting -------
+ptflops>=0.7.3
+
+# ------- Visualisation -------
+matplotlib>=3.9.0
+seaborn>=0.13.2
+
+# ------- Utilities -------
+tqdm>=4.66.4
+joblib>=1.4.2
+
+# ------- Dimensionality reduction (optional, for UMAP analysis) -------
+umap-learn>=0.5.6
