@@ -2,7 +2,7 @@
 
 > **A lightweight, CPU-friendly pipeline for detecting synthetic speech using frozen Wav2Vec 2.0 representations and classical machine learning.**
 
-**Author:** Ayush Patel — *Indian Institute of Information Technology Guwahati (IIITG)*
+**Creator:** Ayush Patel — *Indian Institute of Information Technology Guwahati (IIITG)*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-orange?logo=pytorch)](https://pytorch.org/)
